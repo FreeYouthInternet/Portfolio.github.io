@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@700&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(63, 113, 46);
+    position:fixed;
+    top: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(170, 107, 228);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 70px 84px;
+
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.rightSection .buttons {
+    padding: 50px 0;
+}
+
+.rightSection .buttons .btn a {
+    text-decoration: none;
+    padding: 6px;
+    background-color: rgb(52, 22, 80);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.rightSection .buttons .btn a:hover {
+    text-decoration: none;
+    color: rgb(52, 22, 80);
+    background-color: gold;
+    border: 3px solid rgb(52, 22, 80);
+    font-size: 19px;
+
+}
+
+
+.rightSection {
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+
+.leftSection img {
+    width: 80%;
+}
+.maroon{
+    color: maroon;
+}
+
+
+.purple {
+    color:rgb(63, 113, 46);
+}
+
+.text-gray {
+    color: gray;
+}
+
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+    color: rgb(63, 113, 46);
+}
+
+
+.secondSection .box {
+
+    margin: 160px 0;
+    display: flex;
+}
+
+.secondSection .vertical1 {
+
+    margin: 0 60px;
+}
+
+.secondSection .vertical2 {
+
+    margin: 0 60px;
+}
+
+.secondSection .vertical3 {
+
+    margin: 0 60px;
+}
+
+.secondSection .vertical4 {
+
+    margin: 0 60px;
+}
+
+.image1-top {
+    width: 200px;
+    position: relative;
+    top: -130px;
+    left: -9px;
+
+}
+
+.image2-top {
+    width: 200px;
+    position: relative;
+    top: -130px;
+    left: -9px;
+
+}
+
+.image3-top {
+    width: 200px;
+    position: relative;
+    top: -146px;
+    left: -9px;
+
+}
+
+.image4-top {
+    width: 200px;
+    position: relative;
+    top: -148px;
+    left: -9px;
+
+}
+
+
+.Vertical1-title {
+    position: relative;
+    top: -134px;
+    width: 150px;
+}
+
+.Vertical2-title {
+    position: relative;
+    top: -110px;
+    width: 150px;
+}
+
+.Vertical3-title {
+    position: relative;
+    top: -125px;
+    width: 150px;
+}
+
+.Vertical4-title {
+    position: relative;
+    top: -162px;
+    width: 150px;
+}
+
+.vertical1-desc {
+    position: relative;
+    color: gray;
+    top: -117px;
+    width: 150px;
+    font-size: 10px;
+
+}
+
+.vertical2-desc {
+    position: relative;
+    color: gray;
+    top: -95px;
+    width: 150px;
+    font-size: 10px;
+
+}
+
+.vertical3-desc {
+    position: relative;
+    color: gray;
+    top: -110px;
+    width: 150px;
+    font-size: 10px;
+
+}
+
+.vertical4-desc {
+    position: relative;
+    color: gray;
+    top: -148px;
+    width: 150px;
+    font-size: 10px;
+
+}
+
+.ThirdSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    height: 100vh;
+}
+
+.ThirdSection>div {
+    width: 40%;
+}
+
+.ThirdSection .RightSection img {
+    width: 100%;
+    margin-top: 15%;
+
+}
+
+.ThirdSection .LeftSection {
+
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    color: white;
+    margin: 40px 260px;
+}
+
+.buttons .btn a {
+    text-decoration: none;
+    padding: 6px;
+    background-color: maroon;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.buttons .btn a:hover {
+    text-decoration: none;
+    color: rgb(52, 22, 80);
+    background-color: white;
+    border: 3px solid rgb(52, 22, 80);
+    font-size: 18px;
+
+
+}
+
+footer {
+    background-color: rgb(170, 107, 228);
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: black;
+    padding: 12px 0;
+    font-size: small;
+}
+
+.footer-second ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+
+
+.ThirdSection .RightSection img:hover {
+    width: 98%;
+}
+
+.logo img.hover {
+    opacity: 4px;
+}
+
+.c {
+    text-decoration: none;
+}
+
+.fourthSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    height: 100vh;
+}
+
+.fourthSection a {
+    text-decoration: none;
+    color: white;
+}
+
+.fourthSection .devInfo .heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin: -337px;
+    color: rgb(63, 113, 46);
+}
+
+.logo {
+    display: flex;
+    width: 500px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.logo img:hover {
+    opacity: 0.7;
+    height: 75px;
+}
+
+.c {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.fourthSection a {
+    text-decoration: none;
+    color: white;
+}
+
+.certifications-content .rsection1 {
+    margin: 30px 0;
+}
+
+.c {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin: 20px
+}
+
+.project .heading {
+    margin-left: 240px;
+    padding: 45px;
+    display: flex;
+
+}
+
+.fifthSection .leftSection img {
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.fifthSection .leftSection img:hover {
+    width: 55px;
+    opacity: 10px;
+
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(63, 113, 46);
+}
+
+
+.fifthSection .leftSection H1 {
+    color: rgb(63, 113, 46);
+    font-size: 30px;
+    margin-top: 80px;
+
+}
+
+.fifthSection .rightSection img {
+    width: 80%;
+    border-radius: 20px;
+    border: 3px solid rgb(63, 113, 46);
+}
+
+.fifthSection .leftSection p {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.sixthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh
+}
+
+.sixthSection .contactform {
+    padding: 0 320px;
+    padding-top: 11px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sixthSection .contactform h1 {
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 0;
+    color: rgb(63, 113, 46);
+
+}
+
+.sixthSection .contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sixthSection .contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+
+
+#emailHelp {
+    font-size: 12px;
+    color: white;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+
+
+.sixthSection .btn {
+    text-decoration: none;
+    padding: 6px;
+    background-color:  rgb(63, 113, 46);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.sixthSection .btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(52, 22, 80);
+    border: 3px solid white;
+    font-size: 19px;
+}
+
+.sixthSection .btn a {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+   
+}
+
+#element {
+    color: rgb(63, 113, 46);
+}
+
+#roar {
+    color: maroon;
+
+}
+.yellow{
+    font-size: 20px;
+    color:rgb(63, 113, 46) ;
+}
+.sixthSection .rightSection3 a{
+    color: white;
+    font-size: 20px;
+
+}
+.sixthSection .rightSection3 a:hover{
+
+    color:rgb(63, 113, 46) ;
+
+}
+.leftSection2 img {
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
